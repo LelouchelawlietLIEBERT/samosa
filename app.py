@@ -8,6 +8,7 @@ from typing import List, Dict
 
 # Initialize the app
 app = dash.Dash(__name__)
+server = app.server
 
 # Define cell and drug profiles using dataclasses
 @dataclass
